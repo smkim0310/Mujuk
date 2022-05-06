@@ -85,7 +85,7 @@ public class TCPChat {
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
             // Communication Endpoint for client and server
-            Socket cs=new Socket("LocalHost",6789);
+            Socket cs=new Socket("172.17.157.41",6789);
             System.out.println("Client Started...");
 
             // DataInputStream to read data from input stream
